@@ -56,7 +56,7 @@ const CONFIG = {
 
 const SERVICES = [
   { title: 'Ratten & Mäuse', description: 'Professionelle Nagetierbekämpfung mit nachhaltigen Methoden. Sauber und diskret.', Icon: Rat, emergency: true },
-  { title: 'Wespen & Hornissen', description: 'Sichere Entfernung von Wespennestern – schnell und fachgerecht.', Icon: Bug, emergency: true },
+  { title: 'Wespen & Hornissen', description: 'Sichere Entfernung von Wespennestern. Schnell und fachgerecht.', Icon: Bug, emergency: true },
   { title: 'Katzenschutznetze', description: 'Professionelle Montage von Schutznetzen für Balkone und Terrassen.', Icon: Cat, emergency: false },
   { title: 'Tauben & Vogelabwehr', description: 'Effektive Lösungen gegen Tauben und Spechte an Gebäuden.', Icon: Bird, emergency: false },
 ];
@@ -206,7 +206,7 @@ export default function App() {
                 <span className="font-bold text-brand-accent">{CONFIG.tagline}</span>
               </p>
               <p className="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed">
-                Professionelle Schädlingsbekämpfung mit <span className="font-bold text-brand-primary">nachhaltigen Methoden</span> – umweltschonend und zuverlässig.
+                Professionelle Schädlingsbekämpfung mit <span className="font-bold text-brand-primary">nachhaltigen Methoden</span>. Umweltschonend und zuverlässig.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -299,7 +299,7 @@ export default function App() {
             <h2 className="text-sm font-bold text-brand-accent uppercase tracking-[0.2em] mb-4">Unsere Leistungen</h2>
             <h3 className="text-4xl font-bold text-brand-primary mb-6">Professionelle Schädlingsbekämpfung</h3>
             <p className="text-slate-600 max-w-2xl mx-auto">
-              Mit nachhaltigen und umweltschonenden Methoden bekämpfen wir alle Arten von Schädlingen – sauber, zuverlässig und nachhaltig.
+              Mit nachhaltigen und umweltschonenden Methoden bekämpfen wir alle Arten von Schädlingen. Sauber, zuverlässig und nachhaltig.
             </p>
           </div>
 
@@ -348,7 +348,7 @@ export default function App() {
             <h2 className="text-sm font-bold text-brand-accent uppercase tracking-[0.2em] mb-4">So funktioniert's</h2>
             <h3 className="text-4xl font-bold text-brand-primary mb-6">In 4 Schritten schädlingsfrei</h3>
             <p className="text-slate-600 max-w-2xl mx-auto">
-              Von Ihrem Anruf bis zur nachhaltigen Lösung – transparent, zuverlässig und umweltschonend.
+              Von Ihrem Anruf bis zur nachhaltigen Lösung. Transparent, zuverlässig und umweltschonend.
             </p>
           </div>
 
@@ -487,7 +487,7 @@ export default function App() {
             <div className="text-brand-primary max-w-2xl">
               <h3 className="text-2xl lg:text-3xl font-bold mb-4">Gewerbliche Schädlingsbekämpfung</h3>
               <p className="text-brand-secondary">
-                Gastronomie, Hotels, Bäckereien oder öffentliche Einrichtungen – wir bieten professionelle Lösungen mit regelmäßiger Kontrolle und Dokumentation.
+                Gastronomie, Hotels, Bäckereien oder öffentliche Einrichtungen: Wir bieten professionelle Lösungen mit regelmäßiger Kontrolle und Dokumentation.
               </p>
             </div>
             <a href="#contact" className="bg-brand-primary text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-brand-secondary transition-colors flex items-center gap-2 whitespace-nowrap">
