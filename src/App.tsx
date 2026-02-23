@@ -130,7 +130,7 @@ export default function App() {
       <nav className={`sticky top-0 z-50 transition-colors duration-300 ${scrolled ? 'bg-white/90 backdrop-blur-lg shadow-sm py-3' : 'bg-transparent py-5'}`}>
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center">
-            <img src={CONFIG.logo} alt={CONFIG.companyName} className="h-12 w-auto" />
+            <span className="text-xl font-bold tracking-tight text-brand-primary">{CONFIG.companyName}</span>
           </div>
 
           <div className="hidden md:flex items-center gap-8 text-sm font-semibold text-brand-secondary">
@@ -648,7 +648,7 @@ export default function App() {
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div className="col-span-2">
               <div className="flex items-center mb-6">
-                <img src={CONFIG.logo} alt={CONFIG.companyName} className="h-12 w-auto bg-white rounded p-1" />
+                <span className="text-xl font-bold tracking-tight text-white">{CONFIG.companyName}</span>
               </div>
               <p className="max-w-sm mb-8">
                 Ihr lokaler Partner für professionelle Schädlingsbekämpfung in {CONFIG.region}. Sauber, zuverlässig und nachhaltig.
