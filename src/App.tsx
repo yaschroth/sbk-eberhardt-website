@@ -129,9 +129,8 @@ export default function App() {
       {/* Navigation */}
       <nav className={`sticky top-0 z-50 transition-colors duration-300 ${scrolled ? 'bg-white/90 backdrop-blur-lg shadow-sm py-3' : 'bg-transparent py-5'}`}>
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <div className="flex items-center gap-3">
-            <img src={CONFIG.logo} alt={CONFIG.companyName} className="h-10 w-auto" />
-            <span className="text-xl font-bold tracking-tight text-brand-primary">{CONFIG.companyName}</span>
+          <div className="flex items-center">
+            <img src={CONFIG.logo} alt={CONFIG.companyName} className="h-12 w-auto" />
           </div>
 
           <div className="hidden md:flex items-center gap-8 text-sm font-semibold text-brand-secondary">
